@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main(void) {
+	// your code goes here
+	int i,j,num;
+	printf("Enter the no of rows:\n");
+	scanf("%d",&num);
+	// this first row used for number of rows
+	for(i=1;i<=num;i++)
+	{
+	    //this one for number of coloumns
+	    for(j=1;j<=i;j++)
+	    {
+	        //this should be inside braces
+	    printf("*");
+	    }
+	    //after col. completion it goes for next line
+	    printf("\n");
+	}
+	return 0;
+}
